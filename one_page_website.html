@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 	<html>
 		<body>
-		<h1> Home <h1>
+		<link rel="stylesheet" href="one_page_website.css">
+		<h1> Food and Drink! <h1>
 			<nav> 
-				<p><a href="#form1">Click for form.</a></p>
+				<p class="a"><a href="#form1">Click for form.</a></p>
 			</nav>
-			<p> We'd like to hear your favorite food and drinks.</p>
+			<p class="b"> We'd like to hear your favorite food and drinks!</p>
 			
 			<iframe width="560" height="315" src="https://www.youtube.com/embed/bIvqixH4ICk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			
 		<!--Photo Container-->
-javascript:void(0);		<div>
+		
+		<div>
 			<div>
-				<img src="./Images_2/pizza.jpg" alt="pizza" style="width:500px;height:600px/"> <img src="./Images_2/cheeseburger.jpg" alt="cheeseburger"style="width:500px;height:600px/">
-				<img src="./Images_2/sushi.jpg" alt="sushi" style="width:500px;height:600px/"> <img src="./Images_2/loco-moco.jpg" alt="loco-moco" style="width:500px;height:600px/">
-				<img src="./Images_2/drinks.jpg" alt="drinks" style="width:500px;height:600px/">
+				<img src="../Images_2/pizza.jpg" alt="pizza" style="width:500px;height:600px/"> <img src="../Images_2/cheeseburger.jpg" alt="cheeseburger"style="width:500px;height:600px/">
+				<img src="../Images_2/sushi.jpg" alt="sushi" style="width:500px;height:600px/"> <img src="../Images_2/loco-moco.jpg" alt="loco-moco" style="width:500px;height:600px/">
+				<img src="../Images_2/drinks.jpg" alt="drinks" style="width:500px;height:600px/">
 			</div>
 		</div>		
-		<p>??????????????</p>
+		<p class="c">??????????????</p>
 		<!--End Photo Container-->
 		
 		
@@ -27,11 +29,14 @@ javascript:void(0);		<div>
 		<section>
 				
 		<h1 id="form1"> Tell us your favorite food and drinks?</h1>
+			
 				<form action="" method= "get">
-				First Name: <input type="text" name="First_Name"><br>
-				Favorite Food: <input type="text" name="Favorite_Food"><br>
-				Favorite Beverage: <input type="text" name="FAvorite_Beverage"><br>
-				Email: <input type="email" name="Email"><br>
+					<div class="Answers">
+						First Name: <input class="Answers" input type="text" name="First_Name"><br>
+						Favorite Food: <input class="Answers" input type="text" name="Favorite_Food"><br>
+						Favorite Beverage: <input class="Answers" input type="text" name="Favorite_Beverage"><br>
+						Email: <input class="Answers" input type="email" name="Email"><br>
+					</div>
 		<input type="submit" value="Submit">
 		</form>
 		</section>
